@@ -1,0 +1,39 @@
+# Workspace root gitignore
+
+# Node & Web
+node_modules/
+dist/
+
+# Rust / Tauri
+src-tauri/target/
+target/
+
+# Local models and large files
+*.gguf
+*.bin
+models/
+llama.cpp/models/
+autollama/models/
+
+# Python Virtual Environments & cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local config & state
+.env
+*.local
+settings.json
+state.json
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
