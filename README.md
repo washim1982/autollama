@@ -51,7 +51,7 @@ AUTOLLAMA/
 
 1. Clone or enter the workspace directory:
    ```bash
-   cd c:\Users\shahl\workspace\python\AUTOLLAMA\autollama
+   cd c:\Users\...\autollama
    ```
 
 2. Install dependencies:
